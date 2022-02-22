@@ -1,3 +1,0 @@
-hello world
-
-modifying text in the file

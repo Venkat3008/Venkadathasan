@@ -1,0 +1,50 @@
+
+[1] Identify the type of numbers:
+
+a.0X7AE -- HEXADECIMAL NUMBER (UPPERcase).
+b.3+4j -- COMPLEX NUMBER.
+c.-01234 -- OCTAL NUMBER.
+d.3.14e-2 -- FLOATING POINT NUMBER ( with exponential notation).
+
+
+
+[2] Write a program for String Formatting Operator %, which should include the following conversions:
+
+PROGRAM :
+
+# STRING FORMATTING OPERATOR %
+
+Num = 100
+
+# CHARACTER
+print("CHARACTER conversion is = %c" % Num, '\n')
+
+# SIGNED DECIMAL INTEGER
+print("SIGNED DECIMAL INTEGER conversion is = %d" % Num, '\n')
+
+# OCTAL INTEGER
+print("OCTAL INTEGER conversion is = %#o" % Num, '\n')
+
+# HEXADECIMAL INTEGER [ UPPERcase ]
+print("HEXADECIMAL INTEGER [ UPPERcase ] is = %#X" % Num, '\n')
+
+# FLOATING POINT REAL NUMBER
+print("FLOATING POINT REAL NUMBER conversion is = %.2f" % Num, '\n')   # reduced to 2 numbers after decimal.
+
+# EXPONENTIAL NOTATION
+print("EXPONENTIAL NOTATION conversion is = %.2e" % Num)
+
+
+
+[3] What is the order of precedence in python?
+  
+    GIVEN                    ANSWER  [ PEMDAS ]
+
+a. Parentheses           a. Parentheses      
+b. Exponential           b. Exponential 
+c. Division              d. Multiplication
+d. Multiplication        c. Division  
+e. Addition              e. Addition 
+f. Subtraction           f. Subtraction 
+
+
